@@ -48,12 +48,13 @@
             </div>
             <br>
         </div>
-       
 @include ('answers._index', [
     'answers' => $question->answers,
     'answersCount' => $question->answers_count,
 ])
 <br>
+</div>
+</div>
 @include ('answers._create')
 </div>
 @endsection
